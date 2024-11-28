@@ -1,0 +1,10 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+    {% for customer in customer_list %}
+        <div class="customer-entry">
+            <h2><a href="">{{customer.title}}</a> </h2>
+            <p>{{customer.body}}</p>
+        </div>    
+    {% endfor %}  
+{% endblock content %}
