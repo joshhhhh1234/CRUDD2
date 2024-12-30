@@ -1,8 +1,30 @@
-h1 {
-    color:red;
+*{
+    text-align: center;
 }
 
-.mylogo {
-    height: 300px;
+header {
+    background-color: #0019fd;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  header a:hover {
+    color: #4CAF50; 
+    background-color: white; 
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .logo {
+    height: 500px;
     width: auto;
-}
+    border-radius: 50px;
+  }
